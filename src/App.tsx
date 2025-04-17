@@ -76,7 +76,7 @@ export const App = () => {
     window.gtag('event', '5010_accept_var2');
     setLoading(true);
 
-    // LS.setItem(LSKeys.ShowThx, true);
+    LS.setItem(LSKeys.ShowThx, true);
     setThx(true);
     setLoading(false);
   };
@@ -104,9 +104,9 @@ export const App = () => {
             Альфа-Смарт
           </Typography.TitleResponsive>
           <Typography.Text style={{ margin: '.5rem 0 20px' }} view="primary-medium">
-            Дополнительные привилегии
+            Первый месяц бесплатно,
             <br />
-            от Альфа-Инвестиций
+            далее - 399 руб в месяц
           </Typography.Text>
         </div>
 
