@@ -106,7 +106,7 @@ export const App = () => {
           <Typography.Text style={{ margin: '.5rem 0 20px' }} view="primary-medium">
             Первый месяц бесплатно,
             <br />
-            далее - 399 руб в месяц
+            далее — 399 руб в месяц
           </Typography.Text>
         </div>
 
@@ -128,10 +128,10 @@ export const App = () => {
 
             <div style={{ marginTop: '-40px' }}>
               <Typography.Text tag="p" defaultMargins={false} view="primary-small" weight="bold">
-                14% на остаток
+                14% на остаток на брокерском счете/ИИС
               </Typography.Text>
               <Typography.Text view="primary-small" color="secondary">
-                При пополнении брокерского счёта / ИИС и остатке от 10 000 ₽
+                Для новых денег от 10 000 ₽, которые не были в накоплениях/активах последние 90 дней
               </Typography.Text>
             </div>
 
